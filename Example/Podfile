@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WavFileRepairTool_Example' do
+  pod 'WavFileRepairTool', :path => '../'
+
+  target 'WavFileRepairTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
