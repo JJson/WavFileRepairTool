@@ -1,0 +1,23 @@
+{
+  "name": "WavFileRepairTool",
+  "version": "0.1.0",
+  "summary": "iOS录音时，如果异常终止，比如程序crash时，音频文件使用系统API播放不了，只有一些容错性好的第三方的播放器可以播放。本工具用于修复在这种情况下的异常文件。",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/JJSon/WavFileRepairTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JJSon": "515867115@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/JJSon/WavFileRepairTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WavFileRepairTool/Classes/**/*",
+  "frameworks": "Security"
+}

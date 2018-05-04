@@ -1,0 +1,16 @@
+PODS:
+  - WavFileRepairTool (0.1.0)
+
+DEPENDENCIES:
+  - WavFileRepairTool (from `../`)
+
+EXTERNAL SOURCES:
+  WavFileRepairTool:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WavFileRepairTool: 170a5c02a1ec14536e7ebff436c33d531ea53cff
+
+PODFILE CHECKSUM: a26dda7120e378b79908912e85ab08223da14626
+
+COCOAPODS: 1.4.0

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WavFileRepairTool'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WavFileRepairTool.'
+  s.summary          = 'iOS录音时，如果异常终止，比如程序crash时，音频文件使用系统API播放不了，只有一些容错性好的第三方的播放器可以播放。本工具用于修复在这种情况下的异常文件。'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,11 +32,8 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'WavFileRepairTool/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'WavFileRepairTool' => ['WavFileRepairTool/Assets/*.png']
-  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'Security'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

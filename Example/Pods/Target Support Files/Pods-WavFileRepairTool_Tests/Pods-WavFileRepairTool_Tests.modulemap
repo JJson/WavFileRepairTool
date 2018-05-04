@@ -1,0 +1,6 @@
+framework module Pods_WavFileRepairTool_Tests {
+  umbrella header "Pods-WavFileRepairTool_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

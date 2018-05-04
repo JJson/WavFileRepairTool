@@ -1,0 +1,6 @@
+framework module WavFileRepairTool {
+  umbrella header "WavFileRepairTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
